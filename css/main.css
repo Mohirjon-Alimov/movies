@@ -1,0 +1,17 @@
+.trailer {
+  padding-right: 49px;
+}
+.trailer::after {
+  width: 30px !important;
+  height: 30px !important;
+  display: inline-block !important;
+  content: "";
+  background-image: url("../img/pngwing.com.png") !important;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: top, center;
+  position: absolute !important;
+  z-index: 9 !important;
+  left: 114px !important;
+  top: 4px;
+}
